@@ -1,0 +1,32 @@
+.bg-primary {
+  background: #4B4952;
+}
+
+.bg-secondary {
+  background: #363436;
+}
+
+.bg-accent {
+  background: #A68F97;
+}
+
+.text-accent {
+  color: #A68F97;
+} 
+
+.mobile-nav {
+  @apply block md:hidden fixed top-12 py-2 w-full h-full bg-secondary duration-500;
+} 
+
+nav li a {
+  @apply px-4 py-5 text-lg;
+}
+
+nav li a:hover {
+  color: #a39b9d;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  line-height: 1.5 !important;
+}
